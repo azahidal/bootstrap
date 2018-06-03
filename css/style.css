@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    background-color: grey;
+    height: 500px;
+}
+
+.right-side-nav {
+    right: 0;
+    position: fixed;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+}
+
+.footer {
+    height: 100px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+a li{
+    display: block;
+    color: grey;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a li:hover{
+    background-color: #555;
+    color: white;
+}
+
+.table {
+    margin-bottom: 50px;
+}
